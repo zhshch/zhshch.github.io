@@ -1,1 +1,28 @@
-theme: jekyll-theme-minimal
+# general configuration
+url: http://zhshch.github.io
+baseurl: ''
+navi: ''
+configs:
+  # an avatar or logo (optional)
+  logo: "/images/mask.jpeg"
+  # author will appear under the avatar (optional)
+  title: "Shengchen Zhou"
+  # tagline will appear under the title (optional)
+  tagline: "周 胜臣<br> shzh3188 {at} colorado {dot} edu <br>"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  # include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: True
+
+# exclude
+#exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["CNAME", "LICENSE", "README.md"]
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: mask
